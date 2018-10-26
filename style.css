@@ -1,0 +1,21 @@
+/*
+ Theme Name:   DevWorld
+ Theme URI:    http://www.devopsroom.com/
+ Description:  A theme for the DevWorld.IO blog
+ Author:       Daniel McIntyre
+ Author URI:   http://www.devworld.io
+ Version:      1.0.0
+*/
+
+h1 {
+    color: blue;
+}
+
+header {
+    background: darkgrey;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}

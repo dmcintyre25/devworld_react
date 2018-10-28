@@ -10,21 +10,27 @@
 
 </head>
 <body>
-<div class="container">    
-    <div class="row">
-        <div class="col-lg-12 pink">
+<div class="container-fluid px-0">    
+    
             <header>
-                <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-                <nav>
-                    <?php
-                        $defaults = array(
-                        'container' => false,
-                        'theme_location' => 'primary-menu',
-                        'menu_class' => 'no-bullet'
-                        );
-                        wp_nav_menu( $defaults );
-                    ?>
-                </nav>
+                <div class="row px-3">
+                    <div class="col-lg-3">            
+                        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+                    </div>
+        
+                    <div class="col-lg-9 px-0">  
+                        <nav>
+                            <?php
+                                $defaults = array(
+                                'container' => false,
+                                'theme_location' => 'primary-menu',
+                                'menu_class' => 'no-bullet'
+                                );
+                                wp_nav_menu( $defaults );
+                            ?>
+                        </nav>
+                    </div>
+                </div>
             </header>
         </div>
     </div>

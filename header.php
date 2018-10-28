@@ -10,8 +10,7 @@
 
 </head>
 <body>
-<div class="container-fluid px-0">    
-    
+    <div class="container-fluid px-0">
             <header>
                 <div class="row px-3">
                     <div class="col-lg-3">            
@@ -32,5 +31,5 @@
                     </div>
                 </div>
             </header>
-        </div>
-    </div>
+        
+    

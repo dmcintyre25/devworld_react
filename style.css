@@ -11,9 +11,20 @@ body {
     color: white !important;
 }
 
-h1 {
-    color: blue;
+h1, h2, h3, h4, h5, h6 {
+    color: #181919;
+    font-family: 'Space Mono', monospace;
 }
+
+.title {
+    font-size: 2.5rem;    
+}
+
+.subTitle {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
 
 header {
     background: #3a3a3a;
@@ -31,10 +42,38 @@ footer {
  }
 
 #primary {
-    background: orange;
+    background: #7d9cdb;
 }
 
 #secondary {
-    background: red;
+    background: #949599;
 }
 
+.pink {
+    background-color: pink;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+
+
+.card {
+    position: relative;
+    padding: 8px;   
+    margin-top: 20px; 
+    margin-bottom: 20px;    
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+}
+
+.leadingCard {    
+    height: 400px;
+}
+
+.childCard {    
+    height: 200px;
+}

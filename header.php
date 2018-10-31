@@ -12,23 +12,32 @@
 <body>
     <div class="container-fluid px-0">
             <header>
-                <div class="row px-3">
-                    <div class="col-lg-3">            
-                        <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-                    </div>
-        
-                    <div class="col-lg-9 px-0">  
-                        <nav>
-                            <?php
-                                $defaults = array(
-                                'container' => false,
-                                'theme_location' => 'primary-menu',
-                                'menu_class' => 'no-bullet'
-                                );
-                                wp_nav_menu( $defaults );
-                            ?>
+                <div class="row px-3">        
+                    <div class="col-lg-12 px-0">  
+
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <a class="navbar-brand" href="#">DevWorld</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Programming</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Cloud</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">DevOps</a>
+                                </li>
+                                </ul>
+                            </div>
                         </nav>
-                    </div>
+                    </div>                    
                 </div>
             </header>
         

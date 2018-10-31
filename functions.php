@@ -7,6 +7,8 @@
 function dw_theme_styles() {
   // Bootstrap CSS
   wp_enqueue_style( 'bootstrap_css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css');  
+  // jQuery JS
+  wp_enqueue_script( 'jquery_js', 'https://code.jquery.com/jquery-3.3.1.min.js');
   // Bootstrap JS
   wp_enqueue_script( 'bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js');
   // Main CSS

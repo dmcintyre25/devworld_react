@@ -13,6 +13,9 @@ function dw_theme_styles() {
   wp_enqueue_script( 'bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js');
   // Main CSS
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css');
+  // Font Awesome CSS
+  wp_enqueue_style( 'fontawesome_css', 'https://use.fontawesome.com/releases/v5.4.2/css/all.css');
+  
 
   // Google Font - Anton
   wp_enqueue_style( 'anton_font', 'https://fonts.googleapis.com/css?family=Anton');  

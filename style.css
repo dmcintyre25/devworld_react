@@ -7,9 +7,6 @@
  Version:      1.0.0
 */
 
-body {
-    color: white !important;
-}
 
 h1, h2, h3, h4, h5, h6 {
     color: #181919;
@@ -18,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .title {
     font-size: 2.5rem;    
+    color: #ffffff;
 }
 
 .subTitle {
@@ -36,13 +34,7 @@ footer {
     margin: 0 !important;
  }
 
-#primary {
-    background: #7d9cdb;
-}
 
-#secondary {
-    background: #949599;
-}
 
 .pink {
     background-color: pink;
@@ -56,20 +48,32 @@ footer {
 
 
 .card {
-    position: relative;
     padding: 8px;   
     margin-top: 20px; 
-    margin-bottom: 20px;    
-    display: block;
+    margin-bottom: 20px;
     background-color: #ffffff;
     box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
 }
 
 .leadingCard {    
     height: 400px;
-    width: 50%;
+    width: 85%;
 }
 
-.childCard {    
-    height: 200px;
+.childCard {
+    height: 400px;
+}
+
+#leadingBody {
+    background: radial-gradient(at top left,#1c4993,#063c96);
+}
+
+
+.cardImage {
+    width: 100%;
+    height: auto;
+}
+
+.cardText {
+    padding-top: 15px;
 }

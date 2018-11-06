@@ -7,10 +7,7 @@
 
     <section>
         <div class="text-center">
-                <h1 class="title">Programming; Cloud; DevOps;</h1>
-                <h1 class="subTitle">News, Blog, and Training for Developers</h1>
-
-
+                <h1 class="title">News, Blog, and Training for Developers</h1>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card leadingCard mx-auto">
@@ -67,8 +64,16 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3 class="text-center">Article 1</h3>
+                <h3 class="text-center">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardAuthor">
+                    <a href="#">Daniel McIntyre</a>
+                </div>
+                <div class="cardDate">
+                    <p>November 7th, 2018</p>
+                </div>
             </div>
         </div>
     </div>

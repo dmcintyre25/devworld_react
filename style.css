@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-    font-size: 2.5rem;    
+    margin-top: 10px;
+    font-size: 2.0rem;    
     color: #ffffff;
 }
 
@@ -55,13 +56,12 @@ footer {
     box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
 }
 
-.leadingCard {    
-    height: 400px;
+.leadingCard {  
     width: 85%;
 }
 
 .childCard {
-    height: 400px;
+    height: 415px;
 }
 
 #leadingBody {
@@ -77,3 +77,16 @@ footer {
 .cardText {
     padding-top: 15px;
 }
+
+.cardAuthor {
+    float: left;
+}
+
+.cardDate {
+    float: right;
+    font-weight: 600;
+}
+.cardFooter {
+    font-size: .85rem;
+}
+

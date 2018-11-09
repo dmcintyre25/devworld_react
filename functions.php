@@ -42,4 +42,24 @@ function register_theme_menus() {
 
 add_action( 'init', 'register_theme_menus' );
 
+
+/////////////////
+// Add Support for Featured Images
+/////////////////
+add_theme_support( 'post-thumbnails' );
+
+
+/**
+ * Filter the except length to 20 words.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+  return 25;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
 ?>
+
+

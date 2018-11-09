@@ -28,6 +28,8 @@ h1, h2, h3, h4, h5, h6 {
 footer {
     background: #3a3a3a;
     height: 120px;
+    color: #ffffff;
+    padding: 15px;
 }
 
 .no-padding {
@@ -76,6 +78,10 @@ footer {
 
 .cardText {
     padding-top: 15px;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
 }
 
 .cardAuthor {

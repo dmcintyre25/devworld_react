@@ -64,7 +64,7 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3 class="text-center">Getting Started with React Hooks</h3>
+                <h3 class="text-center cardTitle">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
             </div>
             <div class="cardFooter">
@@ -84,8 +84,16 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3>Article 1</h3>
+                <h3 class="text-center cardTitle">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardAuthor">
+                    <a href="#">Daniel McIntyre</a>
+                </div>
+                <div class="cardDate">
+                    <p>November 7th, 2018</p>
+                </div>
             </div>
         </div>
     </div>
@@ -96,8 +104,16 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3>Article 1</h3>
+                <h3 class="text-center cardTitle">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardAuthor">
+                    <a href="#">Daniel McIntyre</a>
+                </div>
+                <div class="cardDate">
+                    <p>November 7th, 2018</p>
+                </div>
             </div>
         </div>
     </div>
@@ -108,8 +124,16 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3>Article 1</h3>
+                <h3 class="text-center cardTitle">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardAuthor">
+                    <a href="#">Daniel McIntyre</a>
+                </div>
+                <div class="cardDate">
+                    <p>November 7th, 2018</p>
+                </div>
             </div>
         </div>
     </div>
@@ -120,8 +144,16 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3>Article 1</h3>
+                <h3 class="text-center cardTitle">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardAuthor">
+                    <a href="#">Daniel McIntyre</a>
+                </div>
+                <div class="cardDate">
+                    <p>November 7th, 2018</p>
+                </div>
             </div>
         </div>
     </div>
@@ -132,8 +164,16 @@
                 <img class="img-fluid" src=<?php print(get_template_directory_uri() . '/featureImage.jpg'); ?>>                
             </div>
             <div class="cardText">
-                <h3>Article 1</h3>
+                <h3 class="text-center cardTitle">Getting Started with React Hooks</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam non libero turpis. In id ante nec metus semper maximus vel eu lorem. Aliquam erat volutpat.</p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardAuthor">
+                    <a href="#">Daniel McIntyre</a>
+                </div>
+                <div class="cardDate">
+                    <p>November 7th, 2018</p>
+                </div>
             </div>
         </div>
     </div>

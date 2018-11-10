@@ -8,6 +8,10 @@
 */
 
 
+body { 
+    padding-top: 55px; 
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #181919;
     font-family: 'Space Mono', monospace;
@@ -108,4 +112,22 @@ footer {
 
 .img-circle {
     border-radius: 50%;
+}
+
+.postFeature {
+    height: 250px;
+}
+
+.postImage {
+    float: left;
+    width: 75%;
+    height: auto;
+}
+
+.postMeta {
+    float: right;
+}
+
+#postLead {
+    color: #000;
 }

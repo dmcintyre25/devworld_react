@@ -63,7 +63,7 @@ footer {
 }
 
 .childCard {
-    height: 415px;
+  min-height: 415px;
 }
 
 #leadingBody {
@@ -96,3 +96,16 @@ footer {
     font-size: .85rem;
 }
 
+.ownerText {
+    float: left;
+}
+
+.ownerImage {
+    width: 75px;
+    height: auto;
+    float: right;
+}
+
+.img-circle {
+    border-radius: 50%;
+}

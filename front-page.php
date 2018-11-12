@@ -2,12 +2,12 @@
 
 <div id="leadingBody">
 
-<div class="row mx-4">
+<div class="row mx-4 pt-3">
     <div id="primary" class="col-lg-9">  
 
     <section>
         <div class="text-center">
-                <h1 class="title">New11s, Blog, and Training for Developers</h1>
+                <h1 class="title"><?php echo $site_description = get_bloginfo( 'description', 'display' ); ?></h1>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card leadingCard mx-auto">

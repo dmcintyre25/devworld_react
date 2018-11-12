@@ -4,13 +4,13 @@
 
  
     $numPosts = ( is_front_page() ) ? 4 : -1;
-    $offset = ( is_front_page() ) ? 1 : 0;
-
-
-
+    $offset = ( is_front_page() ) ? 1 : 0;    
+    $cat = get_query_var('category_name');
+    
     $args = array(
         'offset' => $offset,
-        'posts_per_page' => $numPosts
+        'posts_per_page' => $numPosts,
+        'category_name' => $cat
     );
     $query = new WP_Query( $args );
     ?>

@@ -2,7 +2,7 @@
 
 	<footer>
 
-	<div class="row">
+	<div class="row px-4 py-2">
         <div class="col-lg-12">
 			<div class="row">
 				<div class="col-lg-8">

@@ -10,32 +10,22 @@
 
 </head>
 <body>
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0 ">
             <header>
                 <div class="row px-3">        
                     <div class="col-lg-12 px-0">  
-
                         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-                            <a class="navbar-brand" href="<?php echo home_url(); ?>">DevWorld <i class="fas fa-globe"></i></a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="<?php echo home_url(); ?>">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Programming</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Cloud</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">DevOps</a>
-                                </li>
-                                </ul>
-                            </div>
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                    <a class="navbar-brand" href="<?php echo home_url(); ?>">DevWorld <i class="fas fa-globe"></i></a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>                                    
+                                </div>
+                                <div id="navbar" class="navbar-collapse collapse">
+                                    <?php bootstrap_nav(); ?>
+                                </div><!--/.nav-collapse -->
+                            </div><!--/.container-fluid -->
                         </nav>
                     </div>                    
                 </div>

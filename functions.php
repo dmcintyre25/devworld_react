@@ -61,4 +61,20 @@ function wpdocs_custom_excerpt_length( $length ) {
 
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
+// Register Custom Navigation Walker
+require_once('class-wp-bootstrap-navwalker.php');
+
+// Bootstrap navigation
+function bootstrap_nav()
+{
+	wp_nav_menu( array(
+            'theme_location'    => 'main-menu',
+            'depth'             => 2,
+            'container'         => 'false',
+            'menu_class'        => 'nav navbar-nav',
+            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+            'walker'            => new wp_bootstrap_navwalker())
+    );
+}
+
 ?>

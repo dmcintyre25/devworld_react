@@ -10,6 +10,10 @@
 
 body { 
     padding-top: 55px; 
+
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 2.2;
+    font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,10 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 footer {
-    background: #3a3a3a;
+    background: #3a3a3a;    
     height: 120px;
-    color: #ffffff;
-    padding: 15px;
+    color: #ffffff;    
 }
 
 .no-padding {
@@ -118,14 +121,19 @@ footer {
     height: 250px;
 }
 
-.postImage {
-    float: left;
-    width: 75%;
-    height: auto;
+.postImage {      
+    width: 50%;       
 }
 
 .postMeta {
-    float: right;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #999;
+}
+
+.postField {
+    color: #1c4993;
+    font-weight: 700;
 }
 
 #postLead {

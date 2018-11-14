@@ -14,11 +14,12 @@
 				<div class="col-lg-4">	
 					<div class="owner">				
 						<div class="ownerText">
-							<p>Brought to you by Daniel McIntyre.</p>
-							<p>Follow him on Twitter <a href="https://twitter.com/dmcintyre25">here.</a></p>
+							<p>DevWorld <i class="fas fa-globe"></i> Creator.</p>
+							<p>Daniel McIntyre</p>
+							<button type="button" class="btn btn-primary btn-sm"><a href="https://twitter.com/dmcintyre25">Follow @dmcintyre25</a></button>
 						</div>
-						<div class="ownerImage">					
-								<img class="img-circle img-fluid" src="/devworld/wp-content/themes/devworld/Images/danielHeadshot.jpg">											
+						<div class="ownerImage">													
+								<?php echo get_avatar( 'dmcintyre25@gmail.com', 75 ); ?>
 						</div>
 					</div>
 				</div>	

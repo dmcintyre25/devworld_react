@@ -107,14 +107,34 @@ footer {
     font-size: .85rem;
 }
 
+.owner {
+    display: inline-block;
+}
+
+
 .ownerText {
-    float: left;
+    font-size: .85rem;
+    display: inline-block;
+    text-align: right;
+}
+
+.ownerText a {
+    color: #fff;
+}
+
+.ownerText p {
+    margin-bottom: 0px;
 }
 
 .ownerImage {
-    width: 75px;
-    height: auto;
-    float: right;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+.ownerImage .avatar {
+    border-radius: 50%;
 }
 
 .img-circle {

@@ -17,7 +17,7 @@
 
     <?php if( $query->have_posts() ) : while( $query->have_posts() ) : $query->the_post(); ?>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-6">
             <div class="card childCard mx-auto">
                 <div class="cardImage">                
                     <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('small', array('class' => 'img-fluid')); ?></a>

@@ -103,6 +103,10 @@ footer {
     font-size: .85rem;
 }
 
+.sidebarCard {
+    font-size: .85rem;
+}
+
 .ownerText {
     float: left;
 }
@@ -138,4 +142,9 @@ footer {
 
 #postLead {
     color: #000;
+}
+
+.cardNewsletter {
+    font-size: 1.0rem;
+    font-weight: 500;
 }

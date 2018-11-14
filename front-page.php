@@ -39,24 +39,24 @@
     </div>
 
     <div id="secondary" class="col-lg-3">
+        <div class="card sidebarCard">
+        <form action="https://devopsroom.us17.list-manage.com/subscribe/post?u=a306fcdde0da1de392b6ddb5c&amp;id=30f0baed76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="form-group text-center">
+                    
+                    <label class="cardNewsletter" for="mce-EMAIL">JOIN OUR MONTHLY NEWSLETTER</label>
+                        
+                    <div class="input-group">
+                        <input type="email" value="" name="EMAIL" id="mce-EMAIL" required="required" class="form-control" placeholder="Enter email">
 
-    <div class="card sidebarCard">
-
-        <form action="https://devopsroom.us17.list-manage.com/subscribe/post?u=a306fcdde0da1de392b6ddb5c&amp;id=33038453d5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Join our mailing list!</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        <span class="input-group-btn">
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a306fcdde0da1de392b6ddb5c_33038453d5" tabindex="-1" value=""></div>
+                            <div class="clear">&nbsp;<button class="btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"><i class="fas fa-paper-plane"></i>&nbsp;</button></div>
+                        </span>
+                    </div>   
+                </div>
+            </form>
         </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a306fcdde0da1de392b6ddb5c_33038453d5" tabindex="-1" value=""></div>
-            <div class="clear"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">Subscribe</button></div>
-        </form>
-
-        </div>
-    </div>
-
-    
+    </div> 
 
 </div>
 

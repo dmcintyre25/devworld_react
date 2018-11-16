@@ -10,11 +10,11 @@
 
 </head>
 <body>
-    <div class="container-fluid px-0 ">
+    <div class="container-fluid px-0 content">
             <header>
-                <div class="row px-3">        
+                <div class="row px-2">        
                     <div class="col-lg-12 px-0">  
-                        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-0">
                             <div class="container-fluid">
                                 <div class="navbar-header">
                                     <a class="navbar-brand" href="<?php echo home_url(); ?>">DevWorld <i class="fas fa-globe"></i></a>

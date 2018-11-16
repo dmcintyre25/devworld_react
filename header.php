@@ -14,8 +14,9 @@
             <header>
                 <div class="row px-2">        
                     <div class="col-lg-12 px-0">  
-                        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-0">
-                            <div class="container-fluid">
+                        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark py-0">
+                                                
+                        <div class="container-fluid">
                                 <div class="navbar-header">
                                     <a class="navbar-brand" href="<?php echo home_url(); ?>">DevWorld <i class="fas fa-globe"></i></a>
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">

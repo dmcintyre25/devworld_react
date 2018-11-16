@@ -12,7 +12,6 @@ html {
 }
 
 body { 
-    padding-top: 55px; 
     height: 100vh;
     font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 2.2;

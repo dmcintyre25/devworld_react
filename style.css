@@ -174,23 +174,52 @@ footer {
 }
 
 .postImage {      
-    width: 50%;       
+    width: 70%;
 }
 
 .postMeta {
     text-transform: uppercase;
+    text-align: center;
     font-size: 1rem;
-    color: #999;
+    color: rgb(207, 207, 207);
+    height: 100%;
 }
 
 .postField {
-    color: #1c4993;
+    color: rgb(207, 207, 207);
     font-weight: 700;
+}
+
+.postField a {
+    color: rgb(207, 207, 207);
+}
+
+.postMeta a:link { color: rgb(207, 207, 207); }
+.postMeta a:visited { color: rgb(207, 207, 207); }
+.postMeta a:hover { color: #7dbeff;  text-decoration: underilne; }
+.postMeta a:active { color: rgb(207, 207, 207); }
+
+.postMeta p {
+    margin-bottom: 0px;
 }
 
 #postLead {
     color: #000;
 }
+
+.postBanner {
+    min-height: 200px;
+    background: radial-gradient(at top left,#336699,#1e4a77);
+    color: white;
+    
+}
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
 
 .cardNewsletter {
     font-size: 1.0rem;
@@ -203,6 +232,13 @@ footer {
     color: white;
 }
 
+
+.pageBanner h1 {
+    margin:auto;
+    line-height: 150px;
+    font-size: 2.0rem;    
+    color: #ffffff;
+}
 
 .pageContent {
     padding-top: 15px;   
@@ -219,12 +255,3 @@ footer {
     -webkit-box-shadow: 0 2px 5px 0 rgba(88,88,102,.07);
     box-shadow: 0 2px 5px 0 rgba(88,88,102,.07);
 }
-
-.pageBanner h1 {
-    margin:auto;
-    line-height:50px;
-    vertical-align:middle;
-    font-size: 2.0rem;    
-    color: #ffffff;
-}
-

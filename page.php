@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <section>
-    <div class="pageBanner text-center align-middle">
+    <div class="pageBanner text-center">
         <?php if( have_posts() ) : while( have_posts() ) : the_post(); ?>
-        
+            
             <h1 class="pageTitle"><?php the_title(); ?></h1>
 
     </div>

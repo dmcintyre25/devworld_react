@@ -94,6 +94,11 @@ footer {
 
 .leadingCard {  
     width: 85%;
+    padding: 0px;   
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
 }
 
 .childCard {
@@ -113,7 +118,13 @@ footer {
 
 .cardText {
     padding-top: 15px;
+    font-size: 1.0rem;
 }
+
+.cardTitle a:link { color: #000; }
+.cardTitle a:visited { color: #000; }
+.cardTitle a:hover { color: #7dbeff;  text-decoration: underilne; }
+.cardTitle a:active { color: #000; }
 
 .cardTitle {
     font-size: 1.5rem;
@@ -221,10 +232,24 @@ footer {
 }
 
 
-.cardNewsletter {
+.sidebarHeader {
     font-size: 1.0rem;
     font-weight: 500;
+    text-transform: uppercase;
 }
+
+.sidebarCard ul {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.sidebarCard h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 0;
+}
+
 
 .pageBanner {
     height: 150px;

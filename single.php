@@ -34,7 +34,7 @@
 
         <div class="col-lg-8">
             <div class="pageContent">
-                <h1><?php the_title(); ?></h1>
+                <span class="postTitle text-center"><h1><?php the_title(); ?></h1></span>
                 <?php the_content(); ?>
             </div>
         </div>

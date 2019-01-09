@@ -63,7 +63,7 @@
 
             <?php
                 $numPosts = ( is_front_page() ) ? 4 : -1;
-                $offset = ( is_front_page() ) ? 1 : 0;    
+                $offset = ( is_front_page() ) ? 0 : 0;    
                 
                 $args = array(
                     'offset' => $offset,

@@ -8,275 +8,263 @@
 */
 
 html {
-    height: 100%;
-    /* background-color: red; */
-    background-color: #f2f2f2;
+  height: 100%;
+  /* background-color: red; */
+  background-color: #f2f2f2;
 }
 
-body { 
-    height: 100vh;
-    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    line-height: 2.2;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: #f2f2f2;
+body {
+  height: 100vh;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  /* display: flex;
+  flex-direction: column; */
+  background-color: #f2f2f2;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    color: #181919;
-    font-family: 'Space Mono', monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #181919;
 }
 
 .title {
-    margin-top: 10px;
-    font-size: 2.0rem;    
-    color: #ffffff;
+  margin-top: 10px;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 .subTitle {
-    font-size: 1.5rem;
-    color: #ffffff;
+  font-size: 1.5rem;
+  color: #ffffff;
 }
 
 .content {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 footer {
-    background: #3a3a3a;    
-    height: 120px;
-    width: 100%;
-    color: rgba(255,255,255,.75); 
-    flex-shrink: 0;
+  background: #3a3a3a;
+  height: 120px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.75);
+  flex-shrink: 0;
 }
 
-.footerMenu  {
-    font-size: 1.0rem;
-    color: rgba(255,255,255,.75);
+.footerMenu {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
 }
-
 
 .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 .no-padding {
-    padding: 0 !important;
-    margin: 0 !important;
- }
-
-
-
-
-
-.pink {
-    background-color: pink;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-.orange {
-    background-color: orange;
-}
-.green {
-    background-color: green;
-}
-
 
 .card {
-    padding: 8px;   
-    margin-top: 20px; 
-    margin-bottom: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+  box-shadow: 0 2px 3px hsla(0, 0%, 4%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, 0.1);
 }
 
-.leadingCard {  
-    width: 85%;
-    padding: 0px;   
-    margin-top: 20px; 
-    margin-bottom: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+.leadingCard {
+  width: 85%;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px hsla(0, 0%, 4%, 0.1), 0 0 0 1px hsla(0, 0%, 4%, 0.1);
 }
-
-.childCard {
-  min-height: 415px;
-}
-
 
 #leadingBody {
-    background: radial-gradient(at top left,#336699,#1e4a77);
+  background: radial-gradient(at top left, #336699, #1e4a77);
 }
 
-
-.cardImage {
-    width: 100%;
-    height: auto;
+.card-text {
+  font-size: 0.5rem;
 }
 
-.cardText {
-    padding-top: 15px;
-    font-size: 1.0rem;
+.card-title a:link {
+  color: #000;
+}
+.card-title a:visited {
+  color: #000;
+}
+.card-title a:hover {
+  color: #7dbeff;
+  text-decoration: underilne;
+}
+.card-title a:active {
+  color: #000;
 }
 
-.cardTitle a:link { color: #000; }
-.cardTitle a:visited { color: #000; }
-.cardTitle a:hover { color: #7dbeff;  text-decoration: underilne; }
-.cardTitle a:active { color: #000; }
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 
-.cardTitle {
-    font-size: 1.5rem;
+.card-body {
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 .cardAuthor {
-    float: left;
 }
 
 .cardDate {
-    float: right;
-    font-weight: 600;
+  font-weight: 600;
 }
 .cardFooter {
-    font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 .sidebarCard {
-    font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 .owner {
-    display: inline-block;
+  display: inline-block;
 }
 
-
 .ownerText {
-    font-size: .85rem;
-    display: inline-block;
-    text-align: right;
+  font-size: 0.85rem;
+  display: inline-block;
+  text-align: right;
 }
 
 .ownerText a {
-    color: #fff;
+  color: #fff;
 }
 
 .ownerText p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .ownerImage {
-    display: inline-block;
-    vertical-align: top;
-
+  display: inline-block;
+  vertical-align: top;
 }
 
-
 .ownerImage .avatar {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .postFeature {
-    height: 250px;
+  height: 250px;
 }
 
-.postImage {      
-    width: 70%;
+.postImage {
+  width: 70%;
 }
 
 .postMeta {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1rem;
-    color: rgb(207, 207, 207);
-    height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(207, 207, 207);
+  height: 100%;
 }
 
 .postField {
-    color: rgb(207, 207, 207);
-    font-weight: 700;
+  color: rgb(207, 207, 207);
+  font-weight: 700;
 }
 
 .postField a {
-    color: rgb(207, 207, 207);
+  color: rgb(207, 207, 207);
 }
 
-.postMeta a:link { color: rgb(207, 207, 207); }
-.postMeta a:visited { color: rgb(207, 207, 207); }
-.postMeta a:hover { color: #7dbeff;  text-decoration: underilne; }
-.postMeta a:active { color: rgb(207, 207, 207); }
+.postMeta a:link {
+  color: rgb(207, 207, 207);
+}
+.postMeta a:visited {
+  color: rgb(207, 207, 207);
+}
+.postMeta a:hover {
+  color: #7dbeff;
+  text-decoration: underilne;
+}
+.postMeta a:active {
+  color: rgb(207, 207, 207);
+}
 
 .postMeta p {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #postLead {
-    color: #000;
+  color: #000;
 }
 
 .postBanner {
-    min-height: 200px;
-    background: radial-gradient(at top left,#336699,#1e4a77);
-    color: white;
-    
+  min-height: 200px;
+  background: radial-gradient(at top left, #336699, #1e4a77);
+  color: white;
 }
 
 .centerDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .sidebarHeader {
-    font-size: 1.0rem;
-    font-weight: 500;
-    text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .sidebarCard ul {
-    padding-left: 10px;
-    list-style-type: none;
+  padding-left: 10px;
+  list-style-type: none;
 }
 
 .sidebarCard h3 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4em;
-    margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin: 0;
 }
-
 
 .pageBanner {
-    height: 150px;
-    background: radial-gradient(at top left,#336699,#1e4a77);
-    color: white;
+  height: 150px;
+  background: radial-gradient(at top left, #336699, #1e4a77);
+  color: white;
 }
 
-
 .pageBanner h1 {
-    margin:auto;
-    line-height: 150px;
-    font-size: 2.0rem;    
-    color: #ffffff;
+  margin: auto;
+  line-height: 150px;
+  font-size: 2rem;
+  color: #ffffff;
 }
 
 .pageContent {
-    padding-top: 15px;   
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    font-size: 1.0rem;
-    margin-top: 20px; 
-    margin-bottom: 20px;
-    background-color: #ffffff;
-    border-radius: 3px;
-    /* box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1); */
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  /* box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1); */
 
-    -webkit-box-shadow: 0 2px 5px 0 rgba(88,88,102,.07);
-    box-shadow: 0 2px 5px 0 rgba(88,88,102,.07);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(88, 88, 102, 0.07);
+  box-shadow: 0 2px 5px 0 rgba(88, 88, 102, 0.07);
 }

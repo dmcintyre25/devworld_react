@@ -38,7 +38,7 @@
 
     </div>
 
-    <div id="secondary" class="col-lg-4">
+    <div id="secondary" class="col-lg-4 d-none d-lg-block">
         <div class="card sidebarCard">
             <form action="https://devopsroom.us17.list-manage.com/subscribe/post?u=a306fcdde0da1de392b6ddb5c&amp;id=30f0baed76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div class="form-group text-center">

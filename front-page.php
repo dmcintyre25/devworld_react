@@ -2,15 +2,15 @@
 
 <div id="leadingBody">
 
-<div class="row mx-4 pt-3">
-    <div id="primary" class="col-lg-8">  
+<div class="row mx-sm-1 mx-md-4 py-3">
+    <div id="primary" class="col-lg-8 col-sm-12">  
 
     <section>
         <div class="text-center">
                 <h1 class="title"><?php echo $site_description = get_bloginfo( 'description', 'display' ); ?></h1>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="leadingCard mx-auto">
+                    <div class="card mx-auto border-0">
 
                         <?php
                         $args = array(
@@ -21,7 +21,7 @@
 
                         <?php if( $query->have_posts() ) : while($query->have_posts() ) : $query->the_post(); ?>
 
-                            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large', array('class' => 'img-fluid')); ?></a>
+                            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large', array('class' => 'card-img-top p-0 img-fluid')); ?></a>
                         <?php endwhile; else : ?>
             
                             <p><?php _e( 'Sorry, no posts matched your criteria.' ) ?></p>
@@ -39,7 +39,7 @@
     </div>
 
     <div id="secondary" class="col-lg-4 d-none d-lg-block">
-        <div class="card sidebarCard">
+        <div class="card sidebarCard mt-5">
             <form action="https://devopsroom.us17.list-manage.com/subscribe/post?u=a306fcdde0da1de392b6ddb5c&amp;id=30f0baed76" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div class="form-group text-center">
                     
@@ -56,7 +56,7 @@
                 </div>
             </form>
         </div>
-        <div class="card sidebarCard">
+        <div class="card sidebarCard mt-3">
             <span class="sidebarHeader text-center">    
             Recent Posts
             </span>

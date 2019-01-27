@@ -51,7 +51,7 @@ h6 {
 
 footer {
   background: #3a3a3a;
-  height: 120px;
+  min-height: 120px;
   width: 100%;
   color: rgba(255, 255, 255, 0.75);
   flex-shrink: 0;
@@ -274,3 +274,10 @@ footer {
     font-size: 1.35rem;
   }
 }
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 1.00rem;
+  }
+}
+
